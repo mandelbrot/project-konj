@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  android:stretchColumns="*"
+    android:layout_height="match_parent" android:padding="5dp" 
+    android:id="@+id/tableLayout">
+
+    <TextView
+        android:id="@+id/konjTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" android:background="#FFFFFF" android:textColor="#00F" android:gravity="center"/>
+    
+	<TableRow android:id="@+id/tableRow0" 
+	  android:layout_marginTop="20dp" android:layout_marginBottom="10dp"
+      android:layout_height="wrap_content" 
+      android:layout_width="match_parent">
+      <Button android:id="@+id/timerButton" 
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:layout_gravity="center_vertical" 
+         android:text="@string/timer"
+         android:textColor="#000000"></Button>
+   	</TableRow>
+
+	<TableRow android:id="@+id/tableRow1" 
+	   android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+	   android:layout_height="wrap_content" 
+	   android:layout_width="match_parent">
+	   <Button android:id="@+id/raceButton" 
+	      android:layout_height="wrap_content" 
+	      android:layout_width="wrap_content" 
+	      android:layout_gravity="center_vertical" 
+	      android:text="@string/races"
+          android:textColor="#000000"></Button>
+	</TableRow>
+	
+	<TableRow android:id="@+id/tableRow2" 
+	   android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+	   android:layout_height="wrap_content" 
+	   android:layout_width="match_parent">
+	   <Button android:id="@+id/participantButton" 
+	      android:layout_height="wrap_content" 
+	      android:layout_width="wrap_content" 
+	      android:layout_gravity="center_vertical" 
+	      android:text="@string/participants"
+          android:textColor="#000000"></Button>
+	</TableRow>
+	
+	<TableRow android:id="@+id/tableRow3" 
+	   android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+	   android:layout_height="wrap_content" 
+	   android:layout_width="match_parent">
+	   <Button android:id="@+id/clubButton" 
+	      android:layout_height="wrap_content" 
+	      android:layout_width="wrap_content" 
+	      android:layout_gravity="center_vertical" 
+	      android:text="@string/clubs"
+          android:textColor="#000000"></Button>
+	</TableRow>
+	
+	<TableRow android:id="@+id/tableRow4" 
+	   android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+	   android:layout_height="wrap_content" 
+	   android:layout_width="match_parent">
+	   <Button android:id="@+id/adminButton" 
+	      android:layout_height="wrap_content" 
+	      android:layout_width="wrap_content" 
+	      android:layout_gravity="center_vertical" 
+	      android:text="@string/admin"
+          android:textColor="#000000"></Button>
+	</TableRow>
+
+    <TextView
+        android:id="@+id/wsTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" android:background="#FFFFFF" android:textColor="#00F" android:gravity="center"/>
+
+</TableLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  android:stretchColumns="*"
+    android:layout_height="match_parent" android:padding="5dp" 
+    android:id="@+id/tableLayout">
+
+   	<TableRow android:id="@+id/tableRow0" 
+	  android:layout_marginTop="20dp"
+      android:layout_height="wrap_content" 
+      android:layout_width="fill_parent">
+	    <TextView
+	        android:id="@+id/iDTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/id" />
+	    <TextView
+	        android:id="@+id/iDEditView"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"/>
+	</TableRow>
+	
+	<TableRow android:id="@+id/tableRow1" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/nameTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/name" />
+
+	    <EditText
+	        android:id="@+id/nameEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/nameHint" />
+	</TableRow>
+	
+	<TableRow android:id="@+id/tableRow1" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/chronoTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/chrono" />
+
+	    <EditText
+	        android:id="@+id/chronoEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/chronoHint" />
+	</TableRow>
+	
+    <Button
+        android:id="@+id/spremiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/save" /> 
+    <Button
+       android:id="@+id/registrationButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:layout_marginRight="80dp"
+       android:layout_marginTop="10dp"
+       android:gravity="center_vertical|center_horizontal"
+       android:text="@string/registration" />
+    <Button
+       android:id="@+id/timerButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:layout_marginRight="80dp"
+       android:layout_marginTop="10dp"
+       android:gravity="center_vertical|center_horizontal"
+       android:text="@string/timer_s" />
+    <Button
+       android:id="@+id/resultsButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="80dp"
+       android:layout_marginRight="80dp"
+       android:layout_marginTop="10dp"
+       android:gravity="center_vertical|center_horizontal"
+       android:text="@string/results" />
+</TableLayout>

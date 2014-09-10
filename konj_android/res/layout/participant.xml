@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/queryScrollView" 
+   android:layout_width="match_parent" 
+   android:layout_height="wrap_content"
+   android:layout_span="2" android:padding="5dp">
+<TableLayout
+    android:layout_width="match_parent"  android:stretchColumns="*"
+    android:layout_height="wrap_content" android:padding="5dp" 
+    android:id="@+id/tableLayout">
+    
+   	<TableRow android:id="@+id/tableRow0" 
+	  android:layout_marginTop="20dp"
+      android:layout_height="wrap_content" 
+      android:layout_width="fill_parent">
+	    <TextView
+	        android:id="@+id/iDTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/id" />
+	    <TextView
+	        android:id="@+id/iDEditView"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"/>
+	</TableRow>
+	
+	<TableRow android:id="@+id/tableRow1" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/nameTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/Name" />
+
+	    <EditText
+	        android:id="@+id/nameEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/NameHint" />
+	</TableRow>
+		
+	<TableRow android:id="@+id/tableRow2" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/surnameTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/Surname" />
+	    <EditText
+	        android:id="@+id/surnameEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/SurnameHint" />
+	</TableRow>    
+		
+	<TableRow android:id="@+id/tableRow3" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/yearTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/Year" />
+	    <EditText
+	        android:id="@+id/yearEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/YearHint" />
+	</TableRow>    
+		
+	<TableRow android:id="@+id/tableRow4" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/sexTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/Sex" />
+	    <EditText
+	        android:id="@+id/sexEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/SexHint" />
+	</TableRow>    
+		
+	<TableRow android:id="@+id/tableRow5" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/mobTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/Mob" />
+	    <EditText
+	        android:id="@+id/mobEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/MobHint" />
+	</TableRow>    
+		
+	<TableRow android:id="@+id/tableRow6" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/shirtTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/Shirt" />
+	    <EditText
+	        android:id="@+id/shirtEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/ShirtHint" />
+	</TableRow>    	
+		
+	<TableRow android:id="@+id/tableRow7" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/emailTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/Email" />
+	    <EditText
+	        android:id="@+id/emailEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/EmailHint" />
+	</TableRow>  
+		
+	<TableRow android:id="@+id/tableRow8" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+	  android:layout_marginBottom="20dp">
+	    <TextView
+	        android:id="@+id/clubTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/club" />
+	    <EditText
+	        android:id="@+id/clubEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="text"
+	        android:hint="@string/club" />
+	</TableRow>  
+	
+	<TableRow android:id="@+id/tableRow9" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <CheckBox
+        android:id="@+id/chkNewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chkNewStart" />
+	    <TextView
+	        android:id="@+id/currentRaceTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/CurrentRace" />
+	</TableRow>
+
+    <TextView
+        android:id="@+id/StartNumberTextView"
+        android:layout_width="@dimen/nameWidth"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="@string/StartNumber"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/spremiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/save" />
+</TableLayout>
+</ScrollView>

@@ -1,0 +1,32 @@
+Order deny,allow
+allow from 127.0.0.1
+deny from all
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ErrorDocument 400 /web/konj/index
+ErrorDocument 401 /web/konj/index
+ErrorDocument 402 /web/konj/index
+ErrorDocument 403 /web/konj/index
+ErrorDocument 404 /web/konj/index
+ErrorDocument 405 /web/konj/index
+ErrorDocument 406 /web/konj/index
+ErrorDocument 407 /web/konj/index
+ErrorDocument 408 /web/konj/index
+ErrorDocument 409 /web/konj/index
+ErrorDocument 410 /web/konj/index
+ErrorDocument 411 /web/konj/index
+ErrorDocument 412 /web/konj/index
+ErrorDocument 413 /web/konj/index
+ErrorDocument 414 /web/konj/index
+ErrorDocument 500 /web/konj/index
+ErrorDocument 501 /web/konj/index
+ErrorDocument 502 /web/konj/index
+ErrorDocument 503 /web/konj/index
+ErrorDocument 504 /web/konj/index
+ErrorDocument 505 /web/konj/index
+DirectoryIndex /web/konj/index       
+order deny,allow

@@ -1,0 +1,3 @@
+server_url
+http://10.0.2.2:8888/konj/WebServiceSOAP/server.php
+http://www.konj.315-sjeverozapad.hr/WebServiceSOAP/server.php

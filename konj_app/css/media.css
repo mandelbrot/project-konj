@@ -1,0 +1,552 @@
+
+/*------
+  MEDIA
+------*/
+@media screen and (min-width: 1441px){
+
+#carousel{
+ /* treba visinu srediti */
+}
+#content {
+  width: 1280px;
+}
+#content-main-container{
+  height:auto;  
+  /* padding-bottom:20px; */
+}
+#content-main-container-big{
+  height:auto;margin:0;
+}
+#content-main{
+  height:auto;
+
+}
+.content-paragraph{
+  width:440px;
+}
+.content-paragraph-big{
+  width:840px;
+}
+.wrapper > .section-big {
+    width:1280px;
+}
+.wrapper > section {
+    width:920px;
+}
+.wrapper > aside {
+    width:300px;
+}
+#header-content{
+width:1300px;
+}
+#logo{
+width:200px;
+}
+nav{
+width:900px;
+}
+#footer-content{
+width:1300px;
+}
+#footer-content-left{
+width:700px;
+}
+}
+
+@media screen and (min-width: 1141px) and (max-width: 1440px){
+
+#carousel{
+ /* treba visinu srediti */
+}
+#content {
+  width: 1120px;
+}
+#content-main-container{
+  height:auto;  
+  /* padding-bottom:20px; */
+}
+#content-main-container-big{
+  height:auto;margin:0;
+}
+#content-main{
+  height:auto;
+
+}
+.content-paragraph{
+  width:380px;
+}
+.content-paragraph-big{
+  width:760px;
+}
+.wrapper > .section-big {
+    width:1120px;
+}
+.wrapper > section {
+    width:820px;
+}
+.wrapper > aside {
+    width:240px;
+}
+#header-content{
+width:1140px;
+}
+#logo{
+width:200px;
+}
+nav{
+width:1140px;
+}
+#footer-content{
+width:1140px;
+}
+#footer-content-left{
+width:600px;
+}
+}
+
+@media screen and (min-width: 961px) and (max-width: 1140px){
+
+#carousel{
+ /* treba visinu srediti */
+}
+#content {
+  width: 940px;
+}
+#content-main-container{
+  height:auto;  
+  /* padding-bottom:20px; */
+}
+#content-main-container-big{
+  height:auto;margin:0;
+}
+#content-main{
+  height:auto;
+
+}
+.content-paragraph{
+  width:290px;
+}
+.content-paragraph-big{
+  width:590px;
+}
+.wrapper > .section-big {
+    width:940px;
+}
+.wrapper > section {
+    width:690px;
+}
+.wrapper > aside {
+    width:190px;
+}
+#header-content{
+width:960px;
+}
+#logo{
+width:200px;
+}
+nav{
+width:960px;
+}
+#footer-content{
+width:960px;
+}
+#footer-content-left{
+width:500px;
+}
+
+}
+
+@media screen and (min-width: 761px) and (max-width: 960px){
+
+#carousel{
+ /* treba visinu srediti */
+}
+#content {
+  width: 740px;
+}
+#content-main-container{
+  height:auto;  
+  /* padding-bottom:20px; */
+}
+#content-main-container-big{
+  height:auto;margin:0;
+}
+#content-main{
+  height:auto;
+
+}
+.content-paragraph{
+  width:220px;
+}
+.content-paragraph-big{
+  width:460px;
+}
+.wrapper > .section-big {
+    width:740px;
+}
+.wrapper > section {
+    width:540px;
+}
+.wrapper > aside {
+    width:140px;
+}
+#header{
+height:80px;
+}
+#header-content{
+width:760px;
+}
+#logo{
+width:175px;
+}
+nav{
+width:760px;
+}
+#footer-content{
+width:760px;
+}
+#footer-content-left{
+width:400px;
+}
+/*------
+  MENU
+------*/
+#menu a{
+	float: left;
+	height: 18px;
+	padding: 3px 26px 0 26px;/*tu promeniti za širinu crvenog hovera*/
+	color: #fff;/* FDA721 */
+	text-transform: uppercase;
+	font-weight: bold;
+}
+}
+
+@media screen and (min-width: 601px) and (max-width: 760px){
+#content {
+  width: 580px;
+}
+#content-main-container{
+  height:auto;
+  /* padding-bottom:20px; */
+}
+#content-main-container-big{
+  height:auto;
+}
+#content-main{
+  height:auto;
+}
+.content-nav{
+float:right;
+}
+.content-paragraph{
+  width:170px;height:inherit;
+}
+.content-paragraph-big{
+  width:350px;
+  height:auto;
+}
+.wrapper > .section-big {
+    width:580px;
+}
+.wrapper > section {
+    width:420px;
+}
+.wrapper > aside {
+    width:100px;
+}
+#header{
+height:80px;
+}
+#header-content{
+width:600px;
+}
+#logo{
+width:180px;
+}
+nav{
+width:600px;
+}
+#footer-content{
+width:600px;
+}
+#footer-content-left{
+width:300px;
+}
+.footer-left{
+padding-bottom:20px;
+}
+/*------
+  MENU
+------*/
+#menu a{
+	float: left;
+	height: 18px;
+	padding: 3px 15px 0 15px;/*tu promeniti za širinu crvenog hovera*/
+	color: #fff;/* FDA721 */
+	text-transform: uppercase;
+	font-weight: bold;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+#content {
+  width: 460px;
+}
+#content-main-container{
+  height:auto;
+  /* padding-bottom:20px; */
+}
+#content-main-container-big{
+  height:auto;
+}
+#content-main1{
+  ;background: #fff;
+
+} 
+#content-main{
+  height:auto;
+}
+.content-paragraph{
+  width:130px;
+}
+.content-paragraph-big{
+  width:270px;
+  height:auto;
+}
+.wrapper > .section-big {
+    width:460px;
+}
+.wrapper > section {
+    width:320px;
+}
+.wrapper > aside {
+    width:80px;
+}
+
+#header{
+  height:103px;
+}
+#header-content{
+width:480px;
+}
+#logo{
+width:180px;
+padding: 0;
+}
+nav{
+width:480px;margin:0px;
+}
+#footer-content{
+width:480px;
+}
+#footer-content-left{
+width:280px;
+}
+.footer-left{
+padding-bottom:20px;
+}
+/*------
+  MENU
+------*/
+#menu a{
+	float: left;
+	height: 18px;
+	padding: 3px 21px 0 21px;/*tu promeniti za širinu crvenog hovera*/
+	color: #fff;/* FDA721 */
+	text-transform: uppercase;
+	font-weight: bold;
+}
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px){
+#content {
+  width: 300px;
+}
+#content-main-container{
+  height:auto;
+  /* padding-bottom:20px; */
+}
+#content-main-container-big{
+  height:auto;
+}
+#content-main{
+  height:auto;
+}
+#content-main1{
+    float:left;background: #0061AC;
+    position: relative;
+	margin-right:0px;
+} 
+.content-paragraph-big{
+margin-right:10px;
+}
+.content-paragraph{
+  width:260px;
+  position:relative;
+  float:left;
+  
+}
+.content-paragraph-big{
+  position:relative;
+  width:260px;
+  margin-right:20px;;
+}
+.wrapper > .section-big {
+    width:300px;
+}
+.wrapper{
+
+}
+.wrapper > section {
+width:280px;
+
+}
+
+.wrapper > aside {
+    float:none;  width:260px;
+}
+.linkovi1{
+margin-bottom:20px;
+}
+
+.linkovi{
+position:relative;margin-bottom:10px;
+float:right;
+}
+#header{
+  height:103px;
+}
+#header-content{
+  width:320px;
+}
+#logo{padding:0;
+  width:180px; 
+}
+nav{
+position:relative;
+width:320px;margin:0px;
+float:right;
+}
+#footer-content{
+width:320px;
+height:200px;
+}
+#footer-content-left{
+width:100px;
+}
+.footer-left{
+padding-bottom:10px;
+}
+.footer-left a{
+border:none;
+}
+/*------
+  MENU
+------*/
+#menu a{
+	float: left;
+	height: 18px;
+	padding: 3px 5.2px 0 5.2px;/*tu promeniti za širinu crvenog hovera*/
+	color: #fff;/* FDA721 */
+	text-transform: uppercase;
+	font-weight: bold;
+}
+}
+
+@media screen and (min-width: 100px) and (max-width: 320px){
+#content {
+  width: 260px;
+}
+/* #content-main-container{
+  height:auto;
+  padding-bottom:20px;
+}
+#content-main-container-big{
+  height:auto;
+}
+#content-main{
+  height:auto;
+}
+#content-main1{
+    float:left;background: #0061AC;
+    position: relative;
+	margin-right:0px;
+} 
+.content-paragraph-big{
+margin-right:10px;
+}
+.content-paragraph{
+  width:260px;
+  position:relative;
+  float:left;
+  
+} */
+.content-paragraph-big{
+  position:relative;
+  width:260px;
+  margin-right:20px;;
+}
+.wrapper > .section-big {
+    width:260px;
+}
+.wrapper{
+
+}
+.wrapper > section {
+  width:240px;
+}
+
+.wrapper > aside {
+    float:none;width:240px;
+}
+.linkovi1{
+margin-bottom:20px;
+}
+
+/* .linkovi{
+position:relative;margin-bottom:10px;
+float:right;
+} */
+#header{
+  height:108px;
+}
+#header-content{
+  width:280px;
+}
+#logo{
+  width:180px; 
+}
+nav{
+position:relative;
+width:280px;margin:0;
+float:left;
+}
+#footer-content{
+width:280px;
+height:200px;
+}
+#footer-content-left{
+width:100px;
+}
+.footer-left{
+padding-bottom:10px;
+}
+.footer-left a{
+border:none;
+}
+/*------
+  MENU
+------*/
+#menu a{
+	float: left;
+	height: 18px;
+	padding: 3px 1.2px 0 1.2px;/*tu promeniti za širinu crvenog hovera*/
+	color: #fff;/* FDA721 */
+	text-transform: uppercase;
+	font-weight: bold;
+}
+}
+
+/*------
+  MEDIA
+------*/

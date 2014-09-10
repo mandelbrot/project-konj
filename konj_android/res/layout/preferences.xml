@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/queryScrollView" 
+  android:layout_width="match_parent" 
+  android:layout_height="wrap_content"
+  android:layout_span="2" android:padding="5dp">
+<TableLayout
+    android:layout_width="match_parent"  android:stretchColumns="*"
+    android:layout_height="wrap_content" android:padding="5dp" 
+    android:id="@+id/tableLayout">
+	
+	<TableRow android:id="@+id/tableRow0" 
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/serverUrlTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/serverUrl" />
+
+	    <EditText
+	        android:id="@+id/serverUrlEditText"
+	        android:layout_width="@dimen/nameWidthEdit"
+	        android:layout_height="fill_parent"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:inputType="textMultiLine|textUri"
+	        android:lines="5"
+	        android:minLines="5"
+            android:textSize="12sp"
+	        android:scrollHorizontally="false"
+	        android:scrollbars="vertical"
+	        android:singleLine="false"  />
+	</TableRow>
+	<TableRow android:id="@+id/tableRow1" 
+	  android:layout_marginTop="20dp"
+	  android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+	    <TextView
+	        android:id="@+id/autoUploadTextView"
+	        android:layout_width="@dimen/nameWidth"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:text="@string/autoUpload" />
+	    <CheckBox
+        android:id="@+id/chkAutoUpload"
+        android:layout_width="@dimen/nameWidthEdit"
+        android:layout_height="wrap_content"/>
+	</TableRow> 
+
+	<Button
+        android:id="@+id/spremiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/save" />
+	</TableLayout>
+</ScrollView>
