@@ -3,6 +3,6 @@ project-konj
 
 Registration and scoring system for races
 
-Created using PHP and MySql
+Web app -  PHP and MySql
 
 Mobile app - Android + SQLite
